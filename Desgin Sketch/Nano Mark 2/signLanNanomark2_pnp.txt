@@ -1,0 +1,55 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=signLanNanomark2
+*Date=13:57:23
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;39.9288;-14.2424;0;Bottom;Via1
+2;;;5.49252;-50.5592;90;Bottom;F4
+3;220;THT;7.9248;-13.4009;0;Bottom;R23
+4;;;70.4088;-18.5096;0;Bottom;Via14
+5;;;40.5384;-47.1608;0;Bottom;Via2
+6;220;THT;7.9248;-21.0209;0;Bottom;R20
+7;;5 mm [THT];33.3248;-19.1321;0;Bottom;LED1
+8;;[THT];17.3747;-6.07071;180;Bottom;S2
+9;;;61.2648;-35.5784;0;Bottom;Via16
+10;;;71.0184;-30.7016;0;Bottom;Via15
+11;220;THT;7.9248;-23.5609;0;Bottom;R19
+12;220;THT;28.2448;-18.4809;-90;Bottom;R15
+13;;;47.244;-22.7768;0;Bottom;Via6
+14;;;33.2232;-49.5992;0;Bottom;Via13
+15;;;53.0098;-17.2109;0;Bottom;Part4
+16;;;51.2126;-53.0992;90;Bottom;F2
+17;;;50.292;-13.6328;0;Bottom;Via4
+18;;switch-spdt_kit;33.3248;-8.3209;180;Bottom;S4
+19;220;THT;18.0848;-18.4809;90;Bottom;R17
+20;;5 mm [THT];40.9448;-19.1321;0;Bottom;LED2
+21;;;42.9768;-7.5368;0;Bottom;Via5
+22;;;58.2168;-35.5784;0;Bottom;Via3
+23;;;36.8808;-22.7768;0;Bottom;Via7
+24;;;11.2776;-31.9208;0;Bottom;Via11
+25;;;32.004;-38.0168;0;Bottom;Via10
+26;;;35.6616;-5.708;0;Bottom;Via12
+27;;;25.8126;-53.0992;90;Bottom;F3
+28;220;THT;7.9248;-15.9409;0;Bottom;R22
+29;220;THT;20.6248;-18.4809;90;Bottom;R18
+30;;;22.86;-19.7288;0;Bottom;Via17
+31;220;THT;7.9248;-18.4809;0;Bottom;R21
+32;;;25.6963;-36.2609;90;Bottom;Part5
+33;220;THT;25.7048;-18.4809;-90;Bottom;R16
+34;;;74.0726;-32.7792;90;Bottom;F1
+35;;;8.40449;-6.48115;45;Bottom;F5
+36;;;54.9148;-5.7809;0;Bottom;S1
+37;;switch-spdt_kit;40.9448;-8.3209;180;Bottom;S5
+38;;;41.7576;-33.14;0;Bottom;Via8
+39;;;39.9288;-39.236;0;Bottom;Via9
+40;;;60.1548;-37.5009;0;Bottom;Part3

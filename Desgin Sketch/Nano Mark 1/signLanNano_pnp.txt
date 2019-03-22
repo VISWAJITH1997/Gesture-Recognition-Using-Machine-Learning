@@ -1,0 +1,57 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=signLanNano
+*Date=01:25:21
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;21.0312;-45.5096;0;Bottom;Via2
+2;;;66.4525;-24.8829;90;Bottom;Part4
+3;;;23.2725;-57.2679;90;Bottom;Part2
+4;;;34.6941;-34.4079;90;Bottom;Part5
+5;;;13.1064;-78.428;0;Bottom;Via8
+6;;;1.524;-67.4552;0;Bottom;Via9
+7;220;2512 [SMD];34.9625;-16.6279;180;Top;R13
+8;;switch-spdt_kit;14.3825;-11.5479;0;Bottom;S4
+9;220;2512 [SMD];42.5825;-75.0479;180;Top;R4
+10;220;2512 [SMD];17.1825;-72.5079;180;Top;R6
+11;;5 mm [THT];44.8625;-9.65911;0;Bottom;LED2
+12;;;53.9496;-40.0232;0;Bottom;Via17
+13;;;55.1688;-45.5096;0;Bottom;Via18
+14;;;5.49253;-75.0479;90;Bottom;F4
+15;;;45.4152;-46.7288;0;Bottom;Via12
+16;;;74.0725;-57.2679;90;Bottom;F1
+17;220;2512 [SMD];4.48253;-69.9679;180;Top;R8
+18;220;2512 [SMD];7.32262;-22.268;135;Top;R10
+19;220;2512 [SMD];45.1225;-16.6279;180;Top;R14
+20;;;49.0728;-73.5512;0;Bottom;Via11
+21;;;52.1208;-21.7352;0;Bottom;Via6
+22;;;6.76253;-10.2779;-90;Bottom;S1
+23;;;22.86;-67.4552;0;Bottom;Via16
+24;220;2512 [SMD];34.4425;-3.92788;0;Top;R12
+25;;;48.4632;-21.7352;0;Bottom;Via13
+26;;;63.0936;-53.4344;0;Bottom;Via10
+27;;;38.7096;-19.2968;0;Bottom;Via1
+28;;;25.8125;-77.5879;90;Bottom;F3
+29;;5 mm [THT];34.7025;-9.65911;0;Bottom;LED1
+30;220;2512 [SMD];44.6025;-3.92788;0;Top;R11
+31;;;14.3256;-38.804;0;Bottom;Via3
+32;220;2512 [SMD];67.9825;-52.1879;180;Top;R2
+33;;switch-spdt_kit;55.0225;-11.5479;180;Bottom;S5
+34;;;8.4045;-30.9698;45;Bottom;F5
+35;;;44.196;-15.0296;0;Bottom;Via5
+36;;[THT];23.8325;-8.71781;180;Bottom;S2
+37;;;16.1544;-69.284;0;Bottom;Via4
+38;;;16.1544;-55.8728;0;Bottom;Via14
+39;;;51.2125;-77.5879;90;Bottom;F2
+40;;;56.4525;-61.0479;0;Bottom;Part3
+41;;;43.5864;-4.0568;0;Bottom;Via15
+42;;;18.5928;-55.8728;0;Bottom;Via7

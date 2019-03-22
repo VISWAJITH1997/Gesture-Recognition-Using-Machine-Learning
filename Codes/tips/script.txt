@@ -1,0 +1,13 @@
+python pip install pygarl
+
+python -m pygarl plist
+
+python -m pygarl sprint -p COM
+
+python -m pygarl record -p COM -d . -g Hi,bye,super -a 11 -m discrete
+
+python -m pygarl train -d . -c svm model.svm
+
+python golve.py
+
+

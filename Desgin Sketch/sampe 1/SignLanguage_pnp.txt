@@ -1,0 +1,35 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=SignLanguage
+*Date=18:47:42
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;220;2010 [SMD];75.4944;-68.0305;0;Bottom;R5
+2;;;26.5176;-38.6076;0;Bottom;Via5
+3;220;2010 [SMD];51.9544;-88.3505;180;Bottom;R4
+4;;;63.7244;-1.99045;0;Bottom;power source
+5;;;25.908;-78.8412;0;Bottom;Via4
+6;;;30.7044;-65.4905;90;Bottom;MULTIPLEXER
+7;;;8.21634;-26.4924;45;Bottom;F1
+8;220;2010 [SMD];29.0944;-88.3505;180;Bottom;R3
+9;220;2512 [SMD];7.13446;-15.2506;-45;Bottom;R1
+10;;;7.84437;-93.4305;90;Bottom;F2
+11;220;2010 [SMD];4.37437;-85.8105;0;Bottom;R2
+12;;;71.0184;-69.0876;0;Bottom;Via2
+13;;;61.1844;-93.4305;90;Bottom;F4
+14;;;33.2444;-95.9705;90;Bottom;F3
+15;;;81.5044;-73.1105;90;Bottom;F5
+16;;;38.0759;-25.3316;0;Bottom;Part1
+17;;;52.1208;-9.9564;0;Bottom;Via1
+18;;;55.1688;-86.1564;0;Bottom;Via3
+19;;;63.8844;-66.7304;0;Bottom;MPU6050
+20;;;73.8844;-33.1055;90;Bottom;BLE
