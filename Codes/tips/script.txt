@@ -8,6 +8,8 @@ python -m pygarl record -p COM -d . -g Hi,bye,super -a 11 -m discrete
 
 python -m pygarl train -d . -c svm model.svm
 
+python -m pygarl plot -d . filename
+
 python golve.py
 
 
