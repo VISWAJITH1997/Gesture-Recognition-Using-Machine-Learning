@@ -28,12 +28,12 @@ def cli():
 
 
 @cli.command()
-@click.option('--port', '-p', default="COM6", help="Serial Port NAME, for example COM3.")
+@click.option('--port', '-p', default="COM3", help="Serial Port NAME, for example COM3.")
 @click.option('--dir', '-d', default=get_default_record_directory(),
               help="Target directory where samples will be saved.")
 @click.option('--gesture', '-g', default="SAMPLE",
               help="Gesture ID of the recorded samples.")
-@click.option('--axis', '-a', default=11, help="Number of AXIS in the signal, default 6.")
+@click.option('--axis', '-a', default=11, help="Number of AXIS in the signal, default 11.")
 @click.option('--mode', '-m', default="discrete", help="Recording mode. You can choose between discrete, stream and piezo.")
 @click.option('--threshold', '-t', default=40, help="If stream or piezo mode is specified, use this parameter to"
                                                             "regulate the threshold for the input.")
@@ -58,7 +58,7 @@ def plist():
 
 
 @cli.command()
-@click.option('--port', '-p', default="COM6", help="Serial Port NAME, for example COM3.")
+@click.option('--port', '-p', default="COM3", help="Serial Port NAME, for example COM3.")
 @click.option('--baudrate', '-b', default=9600, help="Serial Port Baudrate, default 9600.")
 def sprint(port, baudrate):
     """
@@ -98,7 +98,7 @@ def train(dir, classifier, output_file, trainer):
 
 
 @cli.command()
-@click.option('--port', '-p', default="COM6", help="Serial Port NAME, for example COM3.")
+@click.option('--port', '-p', default="COM3", help="Serial Port NAME, for example COM3.")
 @click.argument('example_name')
 @click.argument('args', nargs=-1)
 def example(port, example_name, args):

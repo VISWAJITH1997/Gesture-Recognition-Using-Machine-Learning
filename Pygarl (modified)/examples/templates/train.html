@@ -1,0 +1,46 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="icon" type="image/png" href="../static/artificial-intelligence.png" />
+  <title>SLTUML | Train</title>
+</head>
+
+<body>
+  <br>
+  <div class="container">
+
+    <button class="btn btn-info"><a style="color:white" href="/">< Back</a> </button> 
+
+  <div class="container">
+          {% with messages = get_flashed_messages() %}
+          {% if messages %}
+          {% for message in messages %}
+          <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                aria-hidden="true">×</span></button>
+            {{message}}
+          </div>
+          {% endfor %}
+          {% endif %}
+          {% endwith %}
+          {% block body %}{% endblock %}
+  </div>
+
+  <div class="jumbotron">
+    <h1>Train Action</h1>
+    <h2>Powered by Python</h2>
+    <p>Rendered by HTML and JavaScript</p>
+  </div>
+  <br>
+  <label>Enter your action here</label>
+  <form method="POST">
+    <input name="text" type="text" placeholder="Type Your Command" />
+    <input type="submit" class="btn btn-success"></input>
+  </form>
+  <button class="btn btn-info" method="clear"><a style="color:white" >Clear Track</a> </button> 
+
+  <button class="btn btn-info"><a style="color:white" href="/model">Create Model</a> </button> 
+
+  </div>
+
+  <body>

@@ -5,7 +5,6 @@ from pygarl.middlewares import GradientThresholdMiddleware, PlotterMiddleware, L
 from pygarl.recorders import FileGestureRecorder
 from pygarl.sample_managers import DiscreteSampleManager, StreamSampleManager
 
-# python -m pygarl record -p COM6 -d D:\GitHub\pygarl-datasets\finger_dataset -g right -m stream
 from pygarl.utils import RandomGestureChooser
 
 

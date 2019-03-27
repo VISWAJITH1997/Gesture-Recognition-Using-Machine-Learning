@@ -5,12 +5,16 @@ from pygarl.mocks import VerboseMiddleware
 from pygarl.data_readers import SerialDataReader
 from pygarl.predictors import ClassifierPredictor
 from pygarl.sample_managers import DiscreteSampleManager
+import win32com.client as wincl
+
 
 MODEL_PATH="F:\\project\\SignLa\\Records\\Glove\\model.svm"
 PORT="COM3"
 
-def receive_character(number):
-    print(number)
+def receive_character(word):
+    print(word)
+    speak = wincl.Dispatch("SAPI.SpVoice")
+    speak.Speak(word)
 
 
 # Create the SerialDataReader
