@@ -1,14 +1,13 @@
-python pip install pygarl
 
 python -m pygarl plist
 
-python -m pygarl sprint -p COM
+python -m pygarl sprint -p COM3
 
-python -m pygarl record -p COM -d . -g Hi,bye,super -a 11 -m discrete
+python -m pygarl record -p COM3 -d . -g Hi,bye,super -a 11 -m discrete
 
 python -m pygarl train -d . -c svm model.svm
 
-python -m pygarl plot -d . filename
+python -m pygarl plot 
 
 python golve.py
 
